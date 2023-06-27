@@ -4,18 +4,18 @@
 
 #### delegate
 
-Delegate FRA to validator.
+Delegate BGT to validator.
 
 - validator: Which validator you want to delegete.
 
-msg.value: Send some FRA.
+msg.value: Send some BGT.
 
 #### undelegate
 
-Undelegate FRA from validator. You must have enough FRA on this validator to undelegate.
+Undelegate BGT from validator. You must have enough BGT on this validator to undelegate.
 
 - address: Which validator you want to undelegate.
-- amount: how many FRA you want to undelegate.
+- amount: how many BGT you want to undelegate.
 
 #### updateValidator
 
@@ -31,8 +31,8 @@ Update `memo`, `rate`. You must be a `staker` of the validator.
 
 These `state variable` can access directly. Default value maybe change, don't hardcode it.
 
-- stakeMininum: Mininum staking value; Default: 10000 FRA
-- delegateMininum: Mininum delegate value; Default 1 unit (0.000001 FRA)
+- stakeMininum: Mininum staking value; Default: 10000 BGT
+- delegateMininum: Mininum delegate value; Default 1 unit (0.000001 BGT)
 - powerRateMaximum: Maxinum rate of power, Default is 0.2 (200000)
 - blocktime: Blocktime, Default is 16.
 - unboundBlock: Lock time for undelegate.
